@@ -4,19 +4,17 @@
 int main(int argc, char *argv[])
 {
   
-  //system("PAUSE");	
-  int input_int; // 정수 변수 
-  float input_float; //소수점 변수 
+  char c; // 한자리 숫자를 문자 형태로 받기  
+  int i;
   
-  printf("enter an integer : "); // 정수 입력 
-  scanf("%d",&input_int);   
+  printf("input a number : ");
+  scanf("%c",&c); // %c로 받아야함  
   
-  printf("enter a float : ");  // 실수 입력  
-  scanf("%f", &input_float);
+  i= c-'0'; 
+  printf("The input number is %i\n",i);
   
-  printf("integer : %d, float : %f\n", input_int, input_float);
   
-  system("PAUSE");
+  system("PAUSE"); //이렇게 아래에 있어야 함  
   return 0;
 }
 
