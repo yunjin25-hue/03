@@ -4,12 +4,16 @@
 int main(int argc, char *argv[])
 {
   
-  char alphabet;
+  // 실습 4
+  int ja,mo;
   
-  printf("enter a character : ");
-  scanf("%c",&alphabet);
+  printf("enter bunja : "); 
+  scanf("%d",&ja);
   
-  printf("the next character of %c (%i) is %c (%i).\n", alphabet,alphabet,alphabet+1,alphabet+1);
+  printf("enter bunmo : ");
+  scanf("%d",&mo);
+  
+  printf("The result is %f\n", (float)ja/mo); 
   
   system("PAUSE"); //이렇게 아래에 있어야 함  
   return 0;
