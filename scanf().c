@@ -4,20 +4,18 @@
 int main(int argc, char *argv[])
 {
   
-  char c; // 한자리 숫자를 문자 형태로 받기  
-  int i;
+  char alphabet;
   
-  printf("input a number : ");
-  scanf("%c",&c); // %c로 받아야함  
+  printf("enter a character : ");
+  scanf("%c",&alphabet);
   
-  i= c-'0'; 
-  printf("The input number is %i\n",i);
-  
+  printf("the next character of %c (%i) is %c (%i).\n", alphabet,alphabet,alphabet+1,alphabet+1);
   
   system("PAUSE"); //이렇게 아래에 있어야 함  
   return 0;
 }
 
+//'실행' 안 될 땐 '컴파일'부터 해보고 하기  
 
 
 
